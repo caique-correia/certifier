@@ -1,8 +1,8 @@
-import "../../styles/pallete.css"
+import "../../styles/formats.css"
 
 export default function Header() {
     return (
-        <header className=" bg-[#082434] w-full flex justify-evenly items-center p-8">
+        <header>
             <div>CERTIFICADORA</div>
 
             <div>FALE CONOSCO</div>

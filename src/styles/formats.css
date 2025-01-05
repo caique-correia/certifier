@@ -1,3 +1,23 @@
+header {
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #082434;
+}
+
+h1 {
+    padding: 0.75rem;
+    margin-bottom: 1.25rem;
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 700;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: #f86804;
+}
+
 .cardtitle {
     padding: 0.75rem;
     margin-bottom: 1.25rem;
@@ -6,7 +26,7 @@
     line-height: 2.25rem;
     border-top-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
-    background-color: #f86804;
+    background-color: #d0540c;
 }
 
 .cardtop {
@@ -14,7 +34,7 @@
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
     background-color: goldenrod;
-    color: black;
+    color: white;
 }
 
 .cardbot {
@@ -22,7 +42,7 @@
     border-bottom-left-radius: 1.5rem;
     border-bottom-right-radius: 1.5rem;
     background-color: white;
-    color: #18344c;
+    color: #081c24;
 }
 
 .bb {

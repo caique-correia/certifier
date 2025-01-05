@@ -8,7 +8,7 @@ export default function Hero() {
             style={{ backgroundImage: `url(${cover})` }}
         >
             <div className="flex justify-center">
-                <h1 className="p-3 mb-5 text-5xl font-bold bgorange rounded-tl-2xl rounded-br-2xl">MODELOS</h1>
+                <h1>MODELOS</h1>
             </div>
 
             <div className="flex justify-evenly text-2xl">
