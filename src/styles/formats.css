@@ -24,3 +24,15 @@
     background-color: white;
     color: #18344c;
 }
+
+.bb {
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.br {
+    border: solid;
+    border-width: 1px;
+    border-color: red;
+}
