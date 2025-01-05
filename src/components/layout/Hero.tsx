@@ -4,26 +4,30 @@ import "../../styles/formats.css"
 export default function Hero() {
     return(
         <section
-            className="pt-16 h-[850px] w-full bg-cover flex flex-col txtblack text-center font-bold"
+            className="pt-16 h-[1000px] w-full bg-cover flex flex-col txtblack text-center font-bold"
             style={{ backgroundImage: `url(${cover})` }}
         >
             <div className="flex justify-center">
                 <h1>MODELOS</h1>
             </div>
 
-            <div className="flex justify-evenly text-2xl">
+            <div className="flex justify-evenly">
                 <div className="w-1/4">
                     <h2 className="cardtitle">PESSOA FÍSICA</h2>
 
-                    <div className="rounded-3xl">
-                        <div className=" rounded-t-3xl">
-                            <div className="cardtop">PF A1</div>
-                            <div className="cardbot">R$99,00</div>
+                    <div className="flex flex-col items-center">
+                        <div className="cardtop">PF A1</div>
+                        <div className="cardbot">
+                            <div className="promote">POR APENAS</div>
+                            <div>R$99,00</div>
                         </div>
+                    </div>
 
-                        <div className="pt-10 rounded-b-3xl">
-                            <div className="cardtop">PJ A1</div>
-                            <div className="cardbot">R$160,00</div>
+                    <div className="pt-10 flex flex-col items-center">
+                        <div className="cardtop">PJ A1</div>
+                        <div className="cardbot">
+                            <div className="promote">POR APENAS</div>
+                            <div>R$160,00</div>
                         </div>
                     </div>
                 </div>
@@ -31,14 +35,20 @@ export default function Hero() {
                 <div className="w-1/4">
                     <h2 className="cardtitle">PESSOA JURÍDICA</h2>
 
-                    <div className="rounded-3xl">
-                        <div className="cardtop">e-CPF</div> 
-                        <div className="cardbot">R$180,00</div>
+                    <div className="flex flex-col items-center">
+                        <div className="cardtop">e-CPF</div>
+                        <div className="cardbot">
+                            <div className="promote">POR APENAS</div>
+                            <div>R$180,00</div>
+                        </div>
                     </div>
 
-                    <div className="pt-10 rounded-3x1">
+                    <div className="pt-10 flex flex-col items-center">
                         <div className="cardtop">e-CNPJ</div>
-                        <div className="cardbot">R$269,00</div>
+                        <div className="cardbot">
+                            <div className="promote">POR APENAS</div>
+                            <div>R$269,00</div>
+                        </div>
                     </div>
                 </div>
             </div>
