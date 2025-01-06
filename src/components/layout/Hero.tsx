@@ -12,7 +12,7 @@ export default function Hero() {
             </div>
 
             <div className="flex justify-evenly">
-                <div className="w-1/4">
+                <div className="w-1/3">
                     <h2 className="cardtitle">PESSOA FÍSICA</h2>
 
                     <div className="flex flex-col items-center">
@@ -34,7 +34,7 @@ export default function Hero() {
                     </div>
                 </div>
 
-                <div className="w-1/4">
+                <div className="w-1/3">
                     <h2 className="cardtitle">PESSOA JURÍDICA</h2>
 
                     <div className="flex flex-col items-center">
