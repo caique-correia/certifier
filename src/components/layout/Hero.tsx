@@ -1,4 +1,4 @@
-import { cover } from "../../../public/assets/cover";
+import { cover } from "../../../public/cover";
 import "../../styles/formats.css"
 
 export default function Hero() {
