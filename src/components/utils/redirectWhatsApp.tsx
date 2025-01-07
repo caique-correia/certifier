@@ -1,4 +1,3 @@
-export const redirectWhatsApp = () => {
-    window.open("https://wa.me/5531998084983/?text=Guten%20Morgen%21", "_blank");
-  };
-  
+export const redirectWhatsApp = (encodedURL: string) => {
+    window.open(`https://wa.me/5577936180390/?text=${encodedURL}`, "_blank");
+};

@@ -1,3 +1,7 @@
+"use client"
+
+import { redirectWhatsApp } from "../utils/redirectWhatsApp";
+import { messages } from "../utils/messages";
 import "../../styles/formats.css"
 
 export default function Header() {
@@ -5,9 +9,9 @@ export default function Header() {
         <header>
             <div>CERTIFICADORA</div>
 
-            <div>FALE CONOSCO</div>
+            <button onClick={() => redirectWhatsApp(messages.help)}>FALE CONOSCO</button>
 
-            <div>LOG IN</div>
+            <button>LOG IN</button>
         </header>
     );
 }

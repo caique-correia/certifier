@@ -1,8 +1,9 @@
 "use client"
 
 import { cover } from "../../../public/cover";
-import "../../styles/formats.css"
 import { redirectWhatsApp } from "../utils/redirectWhatsApp";
+import { messages } from "../utils/messages";
+import "../../styles/formats.css"
 
 export default function Hero() {
     return(
@@ -23,7 +24,7 @@ export default function Hero() {
                         <div className="cardbot">
                             <div className="promote">POR APENAS</div>
                             <div>R$99,00</div>
-                            <button className="buybutton" onClick={redirectWhatsApp}>COMPRE AGORA</button>
+                            <button className="buybutton" onClick={() => redirectWhatsApp(messages.pfa1)}>COMPRE AGORA</button>
                         </div>
                     </div>
 
@@ -32,7 +33,7 @@ export default function Hero() {
                         <div className="cardbot">
                             <div className="promote">POR APENAS</div>
                             <div>R$160,00</div>
-                            <button className="buybutton" onClick={redirectWhatsApp}>COMPRE AGORA</button>
+                            <button className="buybutton" onClick={() => redirectWhatsApp(messages.pja1)}>COMPRE AGORA</button>
                         </div>
                     </div>
                 </div>
@@ -45,7 +46,7 @@ export default function Hero() {
                         <div className="cardbot">
                             <div className="promote">POR APENAS</div>
                             <div>R$180,00</div>
-                            <button className="buybutton" onClick={redirectWhatsApp}>COMPRE AGORA</button>
+                            <button className="buybutton" onClick={() => redirectWhatsApp(messages.ecpf)}>COMPRE AGORA</button>
                         </div>
                     </div>
 
@@ -54,7 +55,7 @@ export default function Hero() {
                         <div className="cardbot">
                             <div className="promote">POR APENAS</div>
                             <div>R$269,00</div>
-                            <button className="buybutton" onClick={redirectWhatsApp}>COMPRE AGORA</button>
+                            <button className="buybutton" onClick={() => redirectWhatsApp(messages.ecnpj)}>COMPRE AGORA</button>
                         </div>
                     </div>
                 </div>
