@@ -4,4 +4,4 @@ const pja1 = "Tenho%20interesse%20no%20servi%C3%A7o%20PJ%20A1%2C%20listado%20por
 const ecpf = "Tenho%20interesse%20no%20servi%C3%A7o%20e-CPF%2C%20listado%20por%20R%24180%2C00%21";
 const ecnpj = "Tenho%20interesse%20no%20servi%C3%A7o%20e-CNPJ%2C%20listado%20por%20R%24269%2C00%21";
 
-export const messages: Record<string, string> = {help, pfa1, pja1, ecpf, ecnpj }
+export const messages: Record<string, string> = { help, pfa1, pja1, ecpf, ecnpj }
