@@ -1,5 +1,8 @@
+"use client"
+
 import { cover } from "../../../public/cover";
 import "../../styles/formats.css"
+import WhatsAppButton from "../utils/WhatsAppButton";
 
 export default function Hero() {
     return(
@@ -20,7 +23,7 @@ export default function Hero() {
                         <div className="cardbot">
                             <div className="promote">POR APENAS</div>
                             <div>R$99,00</div>
-                            <div className="buybutton">COMPRE AGORA</div>
+                            <WhatsAppButton />
                         </div>
                     </div>
 
@@ -29,7 +32,7 @@ export default function Hero() {
                         <div className="cardbot">
                             <div className="promote">POR APENAS</div>
                             <div>R$160,00</div>
-                            <div className="buybutton">COMPRE AGORA</div>
+                            <WhatsAppButton />
                         </div>
                     </div>
                 </div>
@@ -42,7 +45,7 @@ export default function Hero() {
                         <div className="cardbot">
                             <div className="promote">POR APENAS</div>
                             <div>R$180,00</div>
-                            <div className="buybutton">COMPRE AGORA</div>
+                            <WhatsAppButton />
                         </div>
                     </div>
 
@@ -51,7 +54,7 @@ export default function Hero() {
                         <div className="cardbot">
                             <div className="promote">POR APENAS</div>
                             <div>R$269,00</div>
-                            <div className="buybutton">COMPRE AGORA</div>
+                            <WhatsAppButton />
                         </div>
                     </div>
                 </div>
