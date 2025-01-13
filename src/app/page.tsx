@@ -1,4 +1,4 @@
-import {Header, Hero, Footer} from "../components/layout/index"
+import {Header, Hero, Footer} from "../components/home/index"
 
 export default function Home() {
   return (
