@@ -1,8 +1,8 @@
-import "../../styles/formats.css"
+import styles from "../../styles/home.module.css"
 
 export default function Footer() {
     return(
-        <footer className="w-full flex flex-col bg-white h-48">
+        <footer className={styles.footer}>
             <div className="h-2/3 bg-[#082434] flex justify-end">
                 <div className="flex flex-col mt-9 mr-12 w-1/4 text-end">
                     <h2 className="font-bold">
